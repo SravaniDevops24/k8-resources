@@ -1,0 +1,20 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: pod-config
+spec:
+  containers:
+  - name: nginx
+    image: nginx
+    env:
+    - name: courseName
+      valueFrom:
+        configMapKeyRef:
+          name: daws24
+          key: course
+    - name: trainerName
+      valueFrom:
+        configMapKeyRef:
+          name: daws24
+          key: trainer
+
