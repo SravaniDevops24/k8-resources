@@ -3,14 +3,14 @@ apiVersion: v1
 metadata:
   name: env-test
   labels:
-    name: sravani
-    course: devops
+    name: devops
+    duration: 120hrs
 spec:
   containers:
   - name: nginx
     image: nginx
     env:
-    - name: sravani
+    - name: couse
       value: devops
     - name: k8
-      value: siva
+      value: 20hrs
