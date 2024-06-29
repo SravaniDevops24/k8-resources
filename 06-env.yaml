@@ -11,6 +11,6 @@ spec:
     image: nginx
     env:
     - name: sravani
-      course: devops
-    - trainer: siva
-      course: k8
+      value: devops
+    - name: k8
+      value: siva
