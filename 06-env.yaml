@@ -9,8 +9,8 @@ spec:
   containers:
   - name: nginx
     image: nginx
-  env:
-  - name: sravani
-    course: devops
-  - trainer: siva
-    course: k8
+    env:
+    - name: sravani
+      course: devops
+    - trainer: siva
+      course: k8
