@@ -11,6 +11,6 @@ spec:
     image: nginx
     env:
     - name: couse
-      value: devops
+      value: 'kubernetes'
     - name: k8
-      value: 20hrs
+      value: '20hrs'
