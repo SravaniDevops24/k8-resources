@@ -2,9 +2,6 @@ kind: Pod
 apiVersion: v1
 metadata:
   name: env-test
-  # labels:
-  #   name: devops
-  #   duration: 120hrs
 spec:
   containers:
   - name: nginx
