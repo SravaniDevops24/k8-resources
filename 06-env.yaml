@@ -1,4 +1,4 @@
-name: Pod
+kind: Pod
 apiVersion: v1
 metadata:
   name: env-test
