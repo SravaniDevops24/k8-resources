@@ -2,15 +2,15 @@ kind: Pod
 apiVersion: v1
 metadata:
   name: env-test
-  labels:
-    name: devops
-    duration: 120hrs
+  # labels:
+  #   name: devops
+  #   duration: 120hrs
 spec:
   containers:
   - name: nginx
     image: nginx
     env:
-    - name: couse
+    - name: course
       value: 'kubernetes'
     - name: k8
       value: '20hrs'
