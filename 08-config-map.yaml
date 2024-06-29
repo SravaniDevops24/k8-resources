@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata: 
+  name: daws24
+data:
+  course: "Devops with AWS"
+  trainer: "Sivakumar"
