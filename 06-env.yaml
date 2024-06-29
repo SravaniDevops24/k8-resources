@@ -1,0 +1,16 @@
+name: Pod
+apiVersion: v1
+metadata:
+  name: env-test
+  labels:
+    name: sravani
+    course: devops
+spec:
+  containers:
+  - name: nginx
+    image: nginx
+  env:
+  - name: sravani
+    course: devops
+  - trainer: siva
+    course: k8
