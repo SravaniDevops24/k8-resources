@@ -1,0 +1,14 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: annotations
+  labels:
+    course: k8
+    trainer: SivaKumar
+  annotations:
+    kubernetes.io/createdby: sravani
+    jenkins.build.url: 'https://jenkins.daws24.online/job/k8'
+spec:
+- name: nginx
+  image: nginx
+  
