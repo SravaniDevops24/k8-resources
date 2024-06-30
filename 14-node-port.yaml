@@ -1,8 +1,9 @@
 kind: Service
 apiVersion: v1
 metadata:
-  name: nginx
+  name: nginx-np
 spec:
+  type: NodePort
   selector:
     name: frontend
     project: expense
@@ -12,3 +13,4 @@ spec:
   - protocol: TCP
     port: 80 # service-port
     targetPort: 80 # target-port
+    nodePort: 32760
